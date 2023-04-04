@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
-    <script href="calc.js" defer></script>
+    <script src="calc.js" defer></script>
 </head>
 <body>
     <div class="calculator">
         <div class="display">
-            <div class="smallDisplay">SMALL DISPLAY</div>
-            <div class="mainDisplay">MAIN DISPLAY</div>
+            <div id="smallDisplay"></div>
+            <div id="mainDisplay"></div>
         </div>
             <button class="number" id="button7">7</button>
             <button class="number" id="button8">8</button>
@@ -21,14 +21,14 @@
             <button class="number" id="button4">4</button>
             <button class="number" id="button5">5</button>
             <button class="number" id="button6">6</button>
-            <button id="buttonMultiply">X</button>
+            <button class="operator" id="buttonMultiply">X</button>
             <button class="number" id="button1">1</button>
             <button class="number" id="button2">2</button>
             <button class="number" id="button3">3</button>
-            <button id="buttonDivide">%</button>
+            <button class="operator" id="buttonDivide">÷</button>
             <button class="number" id="button0">0</button>
-            <button id="buttonAdd">+</button>
-            <button id="buttonSubtract">-</button>
+            <button class="operator" id="buttonAdd">+</button>
+            <button class="operator" id="buttonSubtract">-</button>
             <button id="buttonCalculate">=</button>
     </div>
 </body>
